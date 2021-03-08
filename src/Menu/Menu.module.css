@@ -1,0 +1,25 @@
+.menu {  
+  margin-top: 55px;
+  margin-left: 15px;
+  background-color: rgba(0, 0, 0, 0.2);  
+  position: fixed;
+  z-index: 999;
+ width: 100px;
+ height: 100%;
+}
+.item a {
+  text-decoration: none; 
+  color: white;
+  font-size: 14px;   
+  position: relative;
+  padding: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.item a.active {
+  color: gray;
+}
+
+

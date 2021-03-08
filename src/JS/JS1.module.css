@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   
+    background-image: url(https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    /* background-image: url(https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    
+    background-size: cover;
+    background-position: center;
+}
+.keys {   
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.key {
+    width: 80px;
+    border: 4px solid white;
+    background-color: rgba(0, 0, 0, 0.2);  
+    transition: all 0,07s;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.playing {
+    transform:scale(1.1);
+    border: 4px solid gold;
+    text-shadow: 0 0 10px gold;
+}
+.sound {
+    
+}
