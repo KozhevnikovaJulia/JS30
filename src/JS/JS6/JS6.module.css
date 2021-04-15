@@ -1,9 +1,14 @@
-.container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;   
-    background-image: url(https://images.pexels.com/photos/1135995/pexels-photo-1135995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-size: cover;
-    background-position: center;
+.js6container {
+  padding-top: 50px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(255, 217, 0);
+}
+
+li {
+  list-style-type: none;
 }

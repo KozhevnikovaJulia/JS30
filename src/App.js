@@ -5,6 +5,7 @@ import { JS3 } from './JS/JS3/JS3';
 import { JS4 } from './JS/JS4/JS4';
 import { JS5 } from './JS/JS5/JS5';
 import { JS6 } from './JS/JS6/JS6';
+import { JS7 } from './JS/JS7/JS7';
 import { Menu } from './Menu/Menu';
 import { Header } from './Header/Header';
 import { Switch, Route, Redirect } from 'react-router-dom';
@@ -28,6 +29,7 @@ function App() {
           <Route exact path='/js4' render={() => <JS4 />} />
           <Route exact path='/js5' render={() => <JS5 />} />
           <Route exact path='/js6' render={() => <JS6 />} />
+          <Route exact path='/js7' render={() => <JS7 />} />
         </Switch>
       </div>
     </div>
