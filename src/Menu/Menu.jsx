@@ -40,6 +40,16 @@ export const Menu = React.memo(() => {
           JS7
         </NavLink>
       </div>
+      <div className={style.item}>
+        <NavLink to='/js8' activeClassName={style.active}>
+          JS8
+        </NavLink>
+      </div>
+      <div className={style.item}>
+        <NavLink to='/js9' activeClassName={style.active}>
+          JS9
+        </NavLink>
+      </div>
     </nav>
   );
 });
